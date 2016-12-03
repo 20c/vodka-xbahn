@@ -7,7 +7,7 @@
 [![Codecov](https://img.shields.io/codecov/c/github/20c/vodka-xbahn/master.svg?maxAge=600)](https://codecov.io/github/20c/vodka-xbahn)
 [![Requires.io](https://img.shields.io/requires/github/20c/vodka-xbahn.svg?maxAge=600)](https://requires.io/github/20c/vodka-xbahn/requirements)
 
-xbahn plugin for vodka
+xbahn plugin for vodka, documentation forthcoming, check examples directory for now
 
 ### License
 
