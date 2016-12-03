@@ -1,0 +1,17 @@
+
+language: python
+python: 3.4
+branches:
+  except:
+    - gh-pages
+env:
+  - TOX_ENV=py27
+before_install:
+  - pip install codecov
+install:
+  - pip install tox
+script:
+  - tox
+after_success:
+  - codecov
+
