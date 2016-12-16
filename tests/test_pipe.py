@@ -1,5 +1,6 @@
 import unittest
 import vodka
+import vodka.load_entrypoints
 import vodka.app
 import vodka.instance
 import vodka.data.renderers

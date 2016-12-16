@@ -22,12 +22,13 @@ setup(
         'License :: OSI Approved :: Apache Software License',
     ],
     packages = find_packages(),
-    namespace_packages = ["vodka","vodka.plugins"],
     include_package_data=True,
     url='https://github.com/20c/vodka-xbahn',
     download_url='https://github.com/20c/vodka-xbahn/%s' % version,
     install_requires=requirements,
     test_requires=test_requirements,
-
+    entry_points={
+        'vodka.extend':["xbahn_plugin=vodka_xbahn.plugin"]
+    },
     zip_safe=True
 )
